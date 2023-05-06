@@ -24,15 +24,9 @@ comments: true
 ## Создание клиентов
 
 Установка сервера закончена, осталось подключить клиенты — телефоны и компьютеры. Их может быть сколько угодно, у нас неограниченный трафик. <a href="https://www.wireguard.com/install/" target="_blank">Установите Wireguard</a> на устройства.
-
-[media:{"items":[{"title":"Письмо от хостера","image":{"render":"\n<img\n    class=\"andropov_image \"\n    air-module=\"module.andropov\"\n    data-andropov-type=\"image\"\n    data-image-src=\"https://leonardo.osnova.io/fb04076d-a7b2-5884-989b-a8352f4c3c7a/\"\n    data-image-name=\"\"\n            style=\";background-color: #f2f2f1;\"            src=\"data:image/gif;base64,R0lGODlhAQABAJAAAP8AAAAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==\"/>","type":"image","data":{"uuid":"fb04076d-a7b2-5884-989b-a8352f4c3c7a","width":565,"height":395,"size":27319,"type":"png","color":"f2f2f1","hash":"","external_service":[]}}}]}]
-
-[media:{"items":[{"title":"Окно авторизации","image":{"render":"\n<img\n    class=\"andropov_image \"\n    air-module=\"module.andropov\"\n    data-andropov-type=\"image\"\n    data-image-src=\"https://leonardo.osnova.io/7028f1d0-26a1-51f9-be4e-6afe2f0a08d2/\"\n    data-image-name=\"\"\n            style=\";background-color: #fafafa;\"            src=\"data:image/gif;base64,R0lGODlhAQABAJAAAP8AAAAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==\"/>","type":"image","data":{"uuid":"7028f1d0-26a1-51f9-be4e-6afe2f0a08d2","width":330,"height":348,"size":8483,"type":"png","color":"fafafa","hash":"","external_service":[]}}}]}]
-
-[media:{"items":[{"title":"Созданный клиент в веб-интерфейсе","image":{"render":"\n<img\n    class=\"andropov_image \"\n    air-module=\"module.andropov\"\n    data-andropov-type=\"image\"\n    data-image-src=\"https://leonardo.osnova.io/110df3ba-afbe-5201-afd3-dced0a8fda40/\"\n    data-image-name=\"\"\n            style=\";background-color: #f3f3f3;\"            src=\"data:image/gif;base64,R0lGODlhAQABAJAAAP8AAAAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==\"/>","type":"image","data":{"uuid":"110df3ba-afbe-5201-afd3-dced0a8fda40","width":782,"height":169,"size":7566,"type":"png","color":"f3f3f3","hash":"","external_service":[]}}}]}]
-
-[media:{"items":[{"title":"Слева: активация мобильного приложения, справа — скриншот с 2ip.ru","image":{"render":"\n<img\n    class=\"andropov_image \"\n    air-module=\"module.andropov\"\n    data-andropov-type=\"image\"\n    data-image-src=\"https://leonardo.osnova.io/28c5360d-a8db-5915-8389-b071b9c45638/\"\n    data-image-name=\"\"\n            style=\";background-color: #1b1b1b;\"            src=\"data:image/gif;base64,R0lGODlhAQABAJAAAP8AAAAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==\"/>","type":"image","data":{"uuid":"28c5360d-a8db-5915-8389-b071b9c45638","width":2001,"height":546,"size":109249,"type":"png","color":"1b1b1b","hash":"","external_service":[]}}}]}]
-
+![Я выбрал польшу](/assets/img/WGVPN/1.png)
+![Я выбрал польшу](/assets/img/WGVPN/2.png)
+![Я выбрал польшу](/assets/img/WGVPN/3.png)
 Подобным образом надо создать конфиги для всех устройств.
 
 ## Заключение
@@ -50,9 +44,7 @@ comments: true
 Считается, что иметь сервер с выделенным IP-адресом и авторизацией по паролю небезопасно. Но пароль, который генерирует хостер достаточно хорош. Вы можете убедиться сами — например, для взлома пароля zYq6FV3j понадобится <a href="https://www.passwordmonster.com/" target="_blank">тысяча лет</a>. В общем, это можно выкинуть из головы, если не хотите заморачиваться.
 
 Но в идеале всё-таки аутентификацию по паролю отключить и оставить только по ключу. Ключ — по сути своей, это просто длинный пароль, который хранится у нас на компьютере. Для настройки авторизации по ключу:
-
-[media:{"items":[{"title":"Авторизоваться по паролю не вышло","image":{"render":"\n<img\n    class=\"andropov_image \"\n    air-module=\"module.andropov\"\n    data-andropov-type=\"image\"\n    data-image-src=\"https://leonardo.osnova.io/4917d20e-6e78-5b2f-a6b2-4c0158548e6d/\"\n    data-image-name=\"\"\n            style=\";background-color: #151519;\"            src=\"data:image/gif;base64,R0lGODlhAQABAJAAAP8AAAAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==\"/>","type":"image","data":{"uuid":"4917d20e-6e78-5b2f-a6b2-4c0158548e6d","width":412,"height":66,"size":5380,"type":"png","color":"151519","hash":"","external_service":[]}}}]}]
-
+![Я выбрал польшу](/assets/img/WGVPN/4.png)
 ## Обновления
 
 По умолчанию, автоматические обновления (unattended upgrades) системы уже включены. Проверить их можно командой <b>systemctl status unattended-upgrades --no-pager -l</b>
