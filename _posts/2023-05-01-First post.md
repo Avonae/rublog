@@ -15,4 +15,4 @@ comments: true
 
 Этот сайт — скорее удобный архив статей, нежели 
 
-Сделано на Github Pages, репозиторий [Доступен публичн](https://github.com/Avonae/Blog). 
+Сделано на Github Pages, репозиторий [Доступен публично](https://github.com/Avonae/Blog). 
