@@ -15,4 +15,4 @@ published: true
 
 Этот сайт — скорее удобный архив статей, нежели популярный портал. Но здесь хотя бы есть rss :D
 
-Сделано на Github Pages, репозиторий [Доступен публично](https://github.com/Avonae/Blog).
+Сделано на Github Pages, репозиторий [доступен публично](https://github.com/Avonae/Blog).
