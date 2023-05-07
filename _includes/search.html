@@ -3,7 +3,7 @@
 <div id="beautifuljekyll-search-overlay">
 
   <div id="nav-search-exit" title="Exit search">✕</div>
-  <input type="text" id="nav-search-input" placeholder="Search">
+  <input type="text" id="nav-search-input" placeholder="Искать">
   <ul id="search-results-container"></ul>
   
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
@@ -22,7 +22,7 @@
           "title"    : "{% if page.title != "" %}{{ page.title | strip_html | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", \
           "category" : "{% if page.tags %}{{ page.tags | join: \', \' }}{% else %}page{% endif %}", \
           "url"      : "{{ site.baseurl }}{{ page.url }}", \
-          "date"     : "{{ page.date | date: '%B %e, %Y' | default: "January 1, 1970" }}" \
+          "date"     : "{{ page.date | date: '%d.%m.%Y' | default: "January 1, 1970" }}" \
         }{% unless forloop.last %},{% endunless %} \
       {% endif %}{% endfor %} \
     ]';
