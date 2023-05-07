@@ -235,7 +235,7 @@ gtag: "G-WFE9JQF54S"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%-d, %B, %Y"
+date_format: "%d, %m, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
