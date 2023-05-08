@@ -25,7 +25,8 @@ navbar-links:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
  #   - Learn markdown: "https://www.markdowntutorial.com/"
   Телеграм-канал: "https://t.me/Press_Any"
-  Мои статьи: "myarticles"
+  Мои статьи: 
+  - Установка Postgre SQL на Ubuntu для r_keeper 7: "postgresq_on_ubuntu"
 
 ################
 # --- Logo --- #
