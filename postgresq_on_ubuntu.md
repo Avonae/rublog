@@ -9,11 +9,11 @@ published: true
 ## Обновление системы
 Обновите систему командой
 ```shell
-foo@bar:~$ sudo apt update
+sudo apt update
 sudo apt -y upgrade
 ```
 После обновления системы выполните перезагрузку, чтобы запустить новое ядро.
-# Добавление репозитория PostgreSQL 13 в Ubuntu
+## Добавление репозитория PostgreSQL 13 в Ubuntu
 Добавьте репозиторий PostgreSQL
 ```shell
 sudo apt -y install vim bash-completion wget
