@@ -9,7 +9,7 @@ tags:
   - linux
 ---
 
-В статье описана установка PostgreSQL 13 на Ubuntu 20.04 и последующая настройка связи r_keeper с удалённым сервером PostgreSQL. Установка PostgreSQL на Debian 11 описана в статье по установке r_keeper 7 на Linux.
+В статье описана установка PostgreSQL 13 на Ubuntu 20.04 и последующая настройка связи r_keeper с удалённым сервером PostgreSQL. 
 
 Перед установкой обновите систему командой
 ```shell
@@ -62,27 +62,29 @@ psql
 ```
 ## Создание базы данных
 Создайте базу данных:
-```shell
+```sql
 CREATE DATABASE RK765;
 	CREATE DATABASE
 ```
 Создайте пользователя базы данных с паролем
-```shell
+```sql
 CREATE USER ucs WITH ENCRYPTED PASSWORD '123';
 	CREATE ROLE
 ```
 Назначьте права созданному пользователю в рамках указанной базы данных
-```shell
+```sql
 GRANT ALL PRIVILEGES ON DATABASE rk765 to ucs;   
 	GRANT
 ```
 Предоставьте созданному пользователю права создавать роли. Эти права необходимы для работы с r_keeper:
-```shell
+```sql
 alter role ucs with createrole;
 	ALTER ROLE
-```Вывести список баз данных
-```shell
+```
+Вывести список баз данных
+```sql
 \l
+
 	postgres=# \l 
  
    Имя    | Владелец | Кодировка | LC_COLLATE  |  LC_CTYPE   |     Права доступа      
@@ -96,11 +98,11 @@ template1 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres      
 (4 строки)
 ```
 Выход из psql 
-```shell
+```sql
 \q
 ```
 Выход из суперпользователя postgres
-```shell
+```sql
 exit
 	logout
 ```
@@ -114,7 +116,7 @@ sudo nano /etc/postgresql/13/main/postgresql.conf
 Откроется конфигурационный файл. В нем раскоментируйте или добавьте строчку на выбор:
 - прослушивать все интерфейсы:
 ```shell
-listen_addresses = '*'          # Listen on all interfaces
+listen_addresses = '*' # Listen on all interfaces
 ```
 - прослушивать только на заданных адресах:
 ```shell
@@ -125,7 +127,7 @@ listen_addresses = '192.168.1.101' # Listen on specified private IP address
 
 Для текстового редактора nano:
 - Чтобы сохранить изменения в файле используйте сочетание клавиш `ctrl + o`
-- Для выхода из режима редактирования файла используйте `ctrl + x`
+- Для выхода из режима редактирования файла используйте `ctrl + x`.
 
 ## Разрешение приема удаленных подключений
 Настройте PostgreSQL на прием удаленных подключений от разрешенных хостов.
