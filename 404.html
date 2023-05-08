@@ -8,9 +8,20 @@ permalink: /404.html
   <h1>Ой, такой страницы нет.</h1>
   <h1>Можете вернуться <a href=/>на главную.</a></h1>
   <br/>
-.fit {
-  max-width: 40%;
-  height: auto;
-}
-  <img class="fit" src="{{ 'assets/img/404.jpg' | relative_url }}" alt="Not found" />
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 70%;
+        }
+        .center-fit {
+            max-width: 40%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+  <img class="center-fit" src="{{ 'assets/img/404.jpg' | relative_url }}" alt="Not found" />
 </div>
