@@ -9,7 +9,7 @@
   <span class="post-meta"><span class="d-none d-md-inline middot">&bull;</span> {{ yesReadTime }}</span>
 {% elsif number < 1 %}
   {% assign minReadTime = '&lt; 1 минуты' %}
-  <span class="post-meta"><span class="d-none d-md-inline middot">&bull;</span> {{ minReadTime }}</span>
+  <span class="post-meta"><span class="d-none d-md-inline middot">&bull;</span> {{ minReadTime }}минуты </span>
 {% else %}
   {% assign nilReadTime = number | replace:'0',' ' %}
   {{ nilReadTime }}
