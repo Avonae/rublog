@@ -1,7 +1,6 @@
 ---
 layout: post
 title: О менеджерах паролей
-#subtitle: Описание новых релизов мая 2023
 gh-repo: Avonae/avanae.github.io
 gh-badge:
   - follow
