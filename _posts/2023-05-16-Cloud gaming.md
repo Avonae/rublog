@@ -14,9 +14,7 @@ published: true
 ---
 Что такое облачный гейминг и чем он отличается от обычного? Плюсы, минусы и тарифы — критический обзор 3 популярных российских сервисов с комментариями.
 
-![Hogwarts Legacy. MacBook Air 13 2017, 1440x900](/assets/img/cloudgaming/1.png)
-
-
+![HЛетаем на метле в Full HD](/assets/img/cloudgaming/1.png)
 
 Было начало ковида. На улицу было нельзя, и мы с моей девушкой скучали. В ту пору только вышла Death Stranding и мне очень хотелось поиграть в нее на ноутбуке. Так я узнал про облачный гейминг. Установка клиента, оплата тарифа и вот игра запускается. На возникает карусель из лагов и артефактов. Оказалось, что со старым роутером играть невозможно.
 
@@ -99,7 +97,7 @@ published: true
 
 GFN я использую для игр, которые требуют много времени — Path of Exile, Ведьмак 3, Cyberpunk 2077 и Deep Rock Galactic. На сервисе мало ААА игр, но хорошая новость в том, что Nvidia наконец-то [договорилась с издателями](https://warcraft.blizzplanet.com/blog/comments/microsoft-deal-allows-activision-blizzard-games-back-on-geforce-now) и в сервисе появятся игры от Microsoft и Blizzard.
 
-![Wake the fuck up samurai!](/assets/img/cloudgaming/3.png)
+![Wake the fuck up samurai!](/assets/img/cloudgaming/3.jpg)
 
 **Цены GFN**
 
