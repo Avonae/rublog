@@ -14,9 +14,9 @@ published: true
 ---
 Что такое облачный гейминг и чем он отличается от обычного? Плюсы, минусы и тарифы — критический обзор 3 популярных российских сервисов с комментариями.
 
-![Ламповая няша лечит животик заболевшему котику](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4c29fae-f0e7-4bc5-b7b2-80fa0e1b5872/Horizon_zero_dawn.png)
+![Hogwarts Legacy. MacBook Air 13 2017, 1440x900](/assets/img/cloudgaming/1.png)
 
-Ламповая няша лечит животик заболевшему котику
+
 
 Было начало ковида. На улицу было нельзя, и мы с моей девушкой скучали. В ту пору только вышла Death Stranding и мне очень хотелось поиграть в нее на ноутбуке. Так я узнал про облачный гейминг. Установка клиента, оплата тарифа и вот игра запускается. На возникает карусель из лагов и артефактов. Оказалось, что со старым роутером играть невозможно.
 
@@ -65,9 +65,7 @@ published: true
 
 Я пользуюсь Playkey, чтобы играть в [AAA игры](https://ru.wikipedia.org/wiki/AAA_(%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B)), которых нет в GFN. На нём я прошел Death Stranding, RDR2, Horizon Zero Dawn и Stray на максимальных настройках графики.
 
-![Hogwarts Legacy. MacBook Air 13 2017, 1440x900](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abe12362-8acc-4fe9-9df7-1ff58a65d45d/Playkey_2023-05-15_23-27-45.png)
-
-Hogwarts Legacy. MacBook Air 13 2017, 1440x900
+![Ламповая няша лечит животик заболевшему котику](/assets/img/cloudgaming/2.png)
 
 **Цены Playkey**
 
@@ -101,9 +99,7 @@ Hogwarts Legacy. MacBook Air 13 2017, 1440x900
 
 GFN я использую для игр, которые требуют много времени — Path of Exile, Ведьмак 3, Cyberpunk 2077 и Deep Rock Galactic. На сервисе мало ААА игр, но хорошая новость в том, что Nvidia наконец-то [договорилась с издателями](https://warcraft.blizzplanet.com/blog/comments/microsoft-deal-allows-activision-blizzard-games-back-on-geforce-now) и в сервисе появятся игры от Microsoft и Blizzard.
 
-![Cyberpunk 2077. Lenovo ThinkBook 14 2022, 1920x1080](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28d7f7ce-b308-4340-a782-0d97fd36246a/Cyberpunk.png)
-
-Cyberpunk 2077. Lenovo ThinkBook 14 2022, 1920x1080
+![Wake the fuck up samurai!](/assets/img/cloudgaming/3.png)
 
 **Цены GFN**
 
@@ -131,9 +127,7 @@ Cyberpunk 2077. Lenovo ThinkBook 14 2022, 1920x1080
 
 Качество было хорошее. Я пробовал год назад — было хуже. Задержка у меня была довольно маленькая — из Тбилиси пинг был 40 мс. В целом неплохо, по ощущение — как Playkey, только дороже. В тот раз все безбожно тормозило, но техподдержка сказала, что это моя проблема. При этом, на аналогичной конфигурации Playkey работал нормально.
 
-![ELDEN RING. Lenovo ThinkBook 14 2022, 1920x1080](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b789a77e-b79b-4344-93d4-40f79fed1f13/Elden_ring_3.png)
-
-ELDEN RING. Lenovo ThinkBook 14 2022, 1920x1080
+![Ляпотаа](/assets/img/cloudgaming/4.png)
 
 **Цены VK Play Cloud**
 
@@ -165,3 +159,4 @@ ELDEN RING. Lenovo ThinkBook 14 2022, 1920x1080
 На этом всё. Жду добавления игр Microsoft и Blizzard в GFN, а пока пользуюсь Playkey. 
 
 Если вы хотите поддержать меня, то подписывайтесь на мой [телеграм-канал](https://t.me/Press_Any) или регистрируйтесь по [реферальной ссылке](https://welcome.playkey.net/ru/lp/referral?ref=4799973) на Playkey.
+
