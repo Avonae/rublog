@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Фишинг: история одного фейла
+title: Фишинг или история одного фейла
 gh-repo: Avonae/avanae.github.io
 gh-badge:
   - follow
