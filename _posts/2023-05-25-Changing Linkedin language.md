@@ -24,7 +24,5 @@ published: true
 
 Вуаля, теперь у вас основной язык профиля английский, а русский — дополнительный. Его можно удалить по желанию.
 ![Теперь у вас только один язык, ура!](/assets/img/hello.jpg)
-![меняем язык в linkedin]({{site.baseurl}}/_posts/drew-beamer-3SIXZisims4-unsplash.jpg)
-
 
 Мой канал с полезностями [https://t.me/Press_Any](https://t.me/Press_Any)
