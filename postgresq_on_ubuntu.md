@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Установка PostgreSQL на Ubuntu
-subtitle: Для подключения к r_keeper 7
+#subtitle: Для подключения к r_keeper 7
 published: true
 readtime: true
 tags:
@@ -9,7 +9,7 @@ tags:
   - linux
 ---
 
-В статье описана установка PostgreSQL 13 на Ubuntu 20.04 и последующая настройка связи r_keeper с удалённым сервером PostgreSQL. 
+В статье описана установка PostgreSQL 13 на Ubuntu 20.04, создание базы данных и настройка удаленного к ней подключения.
 
 Перед установкой обновите систему командой
 ```shell
@@ -63,22 +63,22 @@ psql
 ## Создание базы данных
 Создайте базу данных:
 ```sql
-CREATE DATABASE RK765;
+CREATE DATABASE MYDB;
 	CREATE DATABASE
 ```
 Создайте пользователя базы данных с паролем
 ```sql
-CREATE USER ucs WITH ENCRYPTED PASSWORD '123';
+CREATE USER myuser WITH ENCRYPTED PASSWORD '123';
 	CREATE ROLE
 ```
 Назначьте права созданному пользователю в рамках указанной базы данных
 ```sql
-GRANT ALL PRIVILEGES ON DATABASE rk765 to ucs;   
+GRANT ALL PRIVILEGES ON DATABASE MYDB to myuser;   
 	GRANT
 ```
 Предоставьте созданному пользователю права создавать роли. Эти права необходимы для работы с r_keeper:
 ```sql
-alter role ucs with createrole;
+alter role myuser with createrole;
 	ALTER ROLE
 ```
 Вывести список баз данных
@@ -90,7 +90,7 @@ alter role ucs with createrole;
    Имя    | Владелец | Кодировка | LC_COLLATE  |  LC_CTYPE   |     Права доступа      
 -----------+----------+-----------+-------------+-------------+----------------------- 
 postgres  | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
-rk765     | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
+MYDB     | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
 template0 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          + 
           |          |           |             |             | postgres=CTc/postgres 
 template1 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          + 
