@@ -20,11 +20,11 @@ published: true
 SELECT '#','ФИО', 'Должность',
 CONCAT
 (
-DATEDIFF(YEAR, 'Прием на работу', GETDATE()), " лет, ",
+ DATEDIFF(YEAR, 'Прием на работу', GETDATE()), " лет, ",
 FLOOR(floor(DATEDIFF(DAY, 'Прием на работу', GETDATE())/30.4375) - (DATEDIFF(YEAR, 'Прием на работу', GETDATE()) * 12)), " месяцев, ",
-FLOOR(DATEDIFF(DAY, 'Прием на работу', GETDATE()) -
-365*FLOOR(DATEDIFF(YEAR, 'Прием на работу', GETDATE())) -
-30.4375*FLOOR(floor(DATEDIFF(DAY, 'Прием на работу', GETDATE())/30.44)-DATEDIFF(YEAR, 'Прием на работу', GETDATE()) * 12))
+FLOOR(DATEDIFF(DAY, 'Прием на работу', GETDATE()) - 
+365*FLOOR(DATEDIFF(YEAR, 'Прием на работу', GETDATE())) - 
+30.4375*FLOOR(floor(DATEDIFF(DAY, 'Прием на работу', GETDATE())/30.44)-DATEDIFF(YEAR, 'Прием на работу', GETDATE()) * 12)), " дней"
 )
 AS 'Стаж' FROM T1;
 ```
