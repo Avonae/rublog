@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Платит отправитель или кто должен платить за трафик
+title: Sender pays отправитель или кто должен платить за трафик
 gh-repo: Avonae/avanae.github.io
 readtime: true
 published: true
