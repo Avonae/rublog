@@ -14,4 +14,4 @@ published: true
 
 Я же пока не готов платить деньги за нормальный поиск, а duckduckgo мне не нравится. Поэтому буду пробовать сервисы вроде [perplexity.ai](https://www.perplexity.ai/) и [thebrowser.company](https://thebrowser.company/) в надежде найти что-то подходящее. 
 
-![Google search is full of shitty ads on the whole page](%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83%20%D0%B3%D1%83%D0%B3%D0%BB%20%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%20%D0%B8%D1%89%D0%B5%D1%82%20%D0%B8%D0%BB%D0%B8%20%D1%80%D0%B0%D0%BD%D1%8C%D1%88%D0%B5%20%D0%B1%D1%8B%D0%BB%D0%BE%20%D0%BB%D1%83%D1%87%D1%88%D0%B5%2060719af834474e0fa28415857e81504f/Untitled.png)
+![Google search is full of shitty ads on the whole page](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2eab9c7d-e736-499e-8c9f-c5ea27ec2e1f_1468x1828.png)
