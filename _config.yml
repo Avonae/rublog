@@ -34,7 +34,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/assets/img/avatar-icon.jpg"
+avatar: "/assets/img/avatar-icon.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -126,8 +126,8 @@ keywords: "Айтишники, VPN, Полезные инструкции, об�
 ######################################
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
 navbar-col: "#86B2D3"
+    
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
@@ -264,7 +264,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: false# add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
