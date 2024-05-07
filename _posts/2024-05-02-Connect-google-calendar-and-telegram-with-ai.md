@@ -24,4 +24,4 @@ published: true
 
 Я очень доволен, рекомендую.
 
-![Управляем встречами в телеграме](/assets/img/Google-calendar-with-ai/chat.png))
+![Управляем встречами в телеграме](https://github.com/Avonae/Blog3/assets/127596994/0feef427-7601-4bc3-ba7a-7c3e8f41ff98)
