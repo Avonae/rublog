@@ -169,7 +169,7 @@ footer-hover-col: "#0085A1"
 gtag: "G-WFE9JQF54S"
 
 # Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
-yandex_metrica: "93497351"
+yandex_metrica: true
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
