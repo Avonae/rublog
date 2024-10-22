@@ -20,4 +20,4 @@ published: true
 
 ![Почему-то расширение было вообще удалено из магазина Chrome](/assets/img/grammarly/Grammarly2.png)
 
-Ссылка на расширение: [https://chromewebstore.google.com/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen](https://chromewebstore.google.com/detail/grammarly-grammar-checker/)
+Ссылка на расширение: [https://chromewebstore.google.com/detail/grammarly-grammar-checker/](https://chromewebstore.google.com/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen)
