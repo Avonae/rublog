@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Как поторговаться с Bank of Georgia за курс
+title: Как повысить обменный курс в Bank of Georgia
 gh-repo: Avonae/avanae.github.io
 published: true
 ---
