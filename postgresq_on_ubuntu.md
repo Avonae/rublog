@@ -21,7 +21,7 @@ sudo apt -y upgrade
 ## Добавление репозитория PostgreSQL 13 в Ubuntu
 Добавьте репозиторий PostgreSQL
 ```shell
-sudo apt -y install vim bash-completion wget
+sudo apt -y install vim shell-completion wget net-tools
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 echo "deb http://apt.postgresql.org/pub/repos/apt/  '`lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
 ```
@@ -46,51 +46,62 @@ sudo su - postgres
 psql -c "alter user postgres with password 'YourSuperPass';"
 ```
 Если PostgreSQL уже запущен, то укажите запрос:
-```shell
+```sql
 alter user postgres with password 'YourSuperPass';
 ```
 Запустите командную строку PostgreSQL:
 ```shell
 psql
-	psql (13.3 (Ubuntu 13.3-1.pgdg20.04+1))00
 ```
+В результате вы должны увидеть что-то такое:
+```
+psql (13.3 (Ubuntu 13.3-1.pgdg20.04+1))00
 Введите `help`, чтобы получить справку.
-Детализация подключения:
+```
+Если хотите посмотреть детали подключения, есть такая команда:
 ```shell
 \conninfo
-	Вы подключены к базе данных "postgres" как пользователь "postgres" через сокет в "/var/run/postgresql", порт "5432".
 ```
+И в результате получите такой ответ:
+```
+Вы подключены к базе данных "postgres" как пользователь "postgres" через сокет в "/var/run/postgresql", порт "5432".
+```
+Теперь переходим к созданию базы данных PostgreSQL.
 ## Создание базы данных
 Создайте базу данных:
 ```sql
 CREATE DATABASE MYDB;
-	CREATE DATABASE
 ```
-Создайте пользователя базы данных с паролем
+Создайте пользователя базы данных с паролем. Вместо `myuser` и пароля `123` подставьте свои значения.
 ```sql
 CREATE USER myuser WITH ENCRYPTED PASSWORD '123';
-	CREATE ROLE
 ```
-Назначьте права созданному пользователю в рамках указанной базы данных
+в ответ получите 
+```
+CREATE ROLE
+```
+Теперь назначьте права созданному пользователю в рамках указанной базы данных
 ```sql
 GRANT ALL PRIVILEGES ON DATABASE MYDB to myuser;   
-	GRANT
 ```
-Предоставьте созданному пользователю права создавать роли. Эти права необходимы для работы с r_keeper:
+По необходимости, предоставьте созданному пользователю права создавать роли:
 ```sql
 alter role myuser with createrole;
-	ALTER ROLE
 ```
-Вывести список баз данных
+
+Подготовительный этап завершён. Давайте теперь попробуем вывести список баз данных:
 ```sql
 \l
+```
+В ответ получим:
+```
 
 	postgres=# \l 
  
    Имя    | Владелец | Кодировка | LC_COLLATE  |  LC_CTYPE   |     Права доступа      
 -----------+----------+-----------+-------------+-------------+----------------------- 
 postgres  | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
-MYDB     | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
+MYDB      | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 |  
 template0 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          + 
           |          |           |             |             | postgres=CTc/postgres 
 template1 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          + 
@@ -104,10 +115,10 @@ template1 | postgres | UTF8      | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres      
 Выход из суперпользователя postgres
 ```sql
 exit
-	logout
 ```
 # Настройка удалённого подключения
-PostgreSQL 13 на Ubuntu по умолчанию принимает соединения только от localhost. В производственных обычно используют сервер базы данных и подключенные к нему удаленные клиенты.
+По желанию, можно настроить удаленное подключение к базе данных. Если у вас приложение работает на том же сервере, этот пункт можете пропустить. 
+PostgreSQL 13 на Ubuntu по умолчанию принимает соединения только от localhost. В производственных средах обычно используют сервер базы данных и подключенные к нему удаленные клиенты.
 ## Разрешение удаленного подключения
 Чтобы разрешить удаленные подключения, отредактируйте файл конфигурации PostgreSQL:
 ```shell
@@ -124,7 +135,6 @@ listen_addresses = '192.168.1.101' # Listen on specified private IP address
 ```
 В нашем случае выбран адрес `192.168.1.101`, у вас будет другой.
 
-
 Для текстового редактора nano:
 - Чтобы сохранить изменения в файле используйте сочетание клавиш `ctrl + o`
 - Для выхода из режима редактирования файла используйте `ctrl + x`.
@@ -138,12 +148,13 @@ sudo nano /etc/postgresql/13/main/pg_hba.conf
 Раскоментируйте или добавьте новую строчку на выбор:
 - прием удаленных подключений от всех
 ```shell
-host all all 0.0.0.0/0 md5   # Accept from anywhere
+host all all 0.0.0.0/0 md5   # Досnуп отовсюду
 ```
 - прием удаленных подключений от разрешенных подсетей
 ```shell
-host all all 10.10.10.0/24 md5    # Accept from trusted subnet
+host all all 10.10.10.0/24 md5    # Доступ из выбранной подсети
 ```
+Не забудьте указать свои подсети, вместо моих.
 
 После изменения перезапустите службу postgresql.
 ```shell
@@ -152,6 +163,9 @@ sudo systemctl restart postgresql
 Проверьте адрес прослушивания.
 ```shell
 netstat -tunelp | grep 5432
-	tcp 0  0 0.0.0.0:5432   0.0.0.0:*     LISTEN   123    4698674  -  tcp6  0   0 :::5432    :::*    LISTEN   123     4698675
+```
+В результате получите такой ответ:
+```
+tcp 0  0 0.0.0.0:5432   0.0.0.0:*     LISTEN   123    4698674  -  tcp6  0   0 :::5432    :::*    LISTEN   123     4698675
 ```
 PostgreSQL настроен и готовк к подключению удаленных клиентов.
