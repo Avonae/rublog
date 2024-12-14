@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Блокировки OpenVPN в России 31.05.2023
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 gh-badge:
   - follow
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Wireguard VPN с веб-интерфейсом без мучений
 subtitle: Как сделать себе VPN-сервер и сидеть в нормальном интернете
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avpnae.github.io
 gh-badge: [follow]
 tags: [VPN, Обход блокировок, Свободный интернет, Мануал, Linux]
 comments: true

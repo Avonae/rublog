@@ -1,7 +1,7 @@
 ---
 layout: post
 title: О менеджерах паролей
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 gh-badge:
   - follow
 tags:

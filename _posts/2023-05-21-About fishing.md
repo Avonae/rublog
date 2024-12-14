@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Фишинг или история одного фейла
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 gh-badge:
   - follow
 tags:
