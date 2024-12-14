@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Fountation заблокировала 11 русских разработчиков
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Нейросети — надо оно нам или нет?
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 readtime: true
 published: true
 ---

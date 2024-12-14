@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Полезные курсы по питону и дата саенс
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 comments: true
 readtime: true
 published: true

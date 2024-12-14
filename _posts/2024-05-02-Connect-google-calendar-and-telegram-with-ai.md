@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Дружим календарь с телеграмом через Dola.AI
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 readtime: true
 published: true
 ---

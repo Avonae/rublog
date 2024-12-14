@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Как установить тимспик и снова играть с друзьями
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 readtime: true
 published: true
 ---

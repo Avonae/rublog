@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Сториз — теперь и в телеграме!
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 gh-badge:
   - follow
 tags:

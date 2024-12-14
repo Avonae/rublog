@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sender pays отправитель или кто должен платить за трафик
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 readtime: true
 published: true
 ---

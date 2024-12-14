@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Бесплатная альтернатива Teamviewer и Anydesk
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 published: true
 ---
 

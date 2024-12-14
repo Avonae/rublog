@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Как повысить обменный курс в Bank of Georgia
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 published: true
 ---
 

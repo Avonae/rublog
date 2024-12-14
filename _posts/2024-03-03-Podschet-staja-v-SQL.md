@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Подсчет стажа в SQL
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/avonae.github.io
 readtime: true
 published: true
 ---

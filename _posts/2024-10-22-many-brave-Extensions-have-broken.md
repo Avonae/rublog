@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Часть расширений в хроме стала недоступна
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 published: true
 ---
 Сегодня я проснулся и обнаружил, что добрая треть моих расширений в Brave перестали работать. В хроме ситуация точно такая же. Что делать?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Почему гугл плохо ищет или раньше было лучше
-gh-repo: Avonae/avanae.github.io
+gh-repo: Avonae/Avonae.github.io
 readtime: true
 published: true
 ---
