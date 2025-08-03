@@ -49,7 +49,7 @@ ls /usr/share/X11/xorg.conf.d/
 10-amdgpu.conf  10-quirks.conf  10-radeon.conf  40-libinput.conf  51-synaptics-quirks.conf  70-synaptics.conf  70-wacom.conf
 ```
 
-Берем этот файл 70-synaptics.conf и копируем в /etc:
+Берем этот файл ```70-synaptics.conf``` и копируем в /etc:
 
 ```bash
 sudo cp 70-synaptics.conf /etc/X11/xorg.conf.d/
@@ -94,7 +94,5 @@ xinput list-props 11 | grep "Scrolling Distance"
 ```
 
 должно выдавать нужные значения, у меня 350.
-
 ![Верные значения скорости](/assets/img/touchpad-fix/2.png)
-
 Вот и все - ID устройства будет меняться, но скролл будет работать как надо.
