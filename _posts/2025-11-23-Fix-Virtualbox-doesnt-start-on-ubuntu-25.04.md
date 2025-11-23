@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Virtualbox не запускается на Ubuntu 25.04у
+title: Virtualbox не запускается на Ubuntu 25.04
 gh-repo: Avonae/avanae.github.io
 published: true
 ---
@@ -29,4 +29,4 @@ sudo update-grub
 
 Ну и всё. KVM не будет загружаться и мешать виртуалбоксу.
 
-А если хотите использовать виртуалбокс через KVM бекенд, посмотрите [этот репозиторий](https://github.com/cyberus-technology/virtualbox-kvm). Честно, я не пробовал — но вдруг вам пригодится. этот репозиторий
+А если хотите использовать виртуалбокс через KVM бекенд, посмотрите [этот репозиторий](https://github.com/cyberus-technology/virtualbox-kvm). Честно, я не пробовал — но вдруг вам пригодится.
