@@ -104,6 +104,9 @@ url-pretty: "blog.filinkov.org"
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
+# Without this marker in a post, the whole post becomes the excerpt and gets truncated to excerpt_length
+excerpt_separator: "<!--more-->"
+
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
 
