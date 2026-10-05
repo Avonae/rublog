@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Как отключить опросы в Claude Code
+title: Как отключить опросы от Claude
 gh-repo: Avonae/avanae.github.io
 published: true
 ---
